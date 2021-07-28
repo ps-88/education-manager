@@ -7,7 +7,7 @@ import javax.persistence.*;
 import java.time.LocalDate;
 
 
-@SuperBuilder(toBuilder = true)
+@SuperBuilder
 @Getter
 @Setter
 @ToString

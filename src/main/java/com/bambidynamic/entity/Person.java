@@ -7,12 +7,12 @@ import javax.persistence.*;
 import java.time.LocalDate;
 
 
-@Getter (AccessLevel.PUBLIC)
-@Setter (AccessLevel.PUBLIC)
-@ToString
+@Getter
+@Setter
 @SuperBuilder
 @NoArgsConstructor
 @AllArgsConstructor
+@ToString
 @MappedSuperclass
 public abstract class Person {
 
