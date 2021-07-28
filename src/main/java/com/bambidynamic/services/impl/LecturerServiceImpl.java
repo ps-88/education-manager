@@ -43,6 +43,8 @@ public class LecturerServiceImpl implements LecturerService {
 
     @Override
     public Lecturer createLecturer(LecturerRequest request) {
+
+
         var lecturer = Lecturer.builder()
                 .firstName(request.getFirstName())
                 .lastName(request.getLastName())

@@ -1,6 +1,7 @@
 package com.bambidynamic;
 
 
+import com.bambidynamic.entity.Lecturer;
 import com.bambidynamic.random.RandomCourseUtils;
 import com.bambidynamic.random.RandomLectorUtils;
 import com.bambidynamic.random.RandomStudentUtils;
@@ -45,6 +46,8 @@ public class Runner implements CommandLineRunner {
                 .forEach(lecturerRepository::save);
 
     }
+
+
 }
 
 

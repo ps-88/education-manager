@@ -11,6 +11,7 @@ import java.time.LocalDate;
 @Data
 public class StudentRequest {
 
+    private Long idNumber;
     private String firstName;
     private String lastName;
     private LocalDate dateOfBirth;

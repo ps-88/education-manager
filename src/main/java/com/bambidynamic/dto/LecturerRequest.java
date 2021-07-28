@@ -10,6 +10,7 @@ import lombok.NoArgsConstructor;
 @Data
 public class LecturerRequest {
 
+    private Long idNumber;
     private String firstName;
     private String lastName;
     private String city;
